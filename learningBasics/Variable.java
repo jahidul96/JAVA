@@ -2,8 +2,6 @@
 class Variable {
     public static void main(String[] args){
         // variable defination
-
-        
         String name = "20";
         int age = 23;
         float number = 20.3F;
