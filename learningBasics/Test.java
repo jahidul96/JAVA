@@ -1,5 +1,5 @@
 
-// first java code!!!
+// first java code
 
 class Test {
     public static void main(String[] args){
