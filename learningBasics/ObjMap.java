@@ -1,4 +1,6 @@
+
 import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class ObjMap {
    public static void main(String[] args) {
@@ -10,6 +12,17 @@ public class ObjMap {
     country.put("us", "america");
 
     System.out.println(country);
+
+    System.out.println(country.entrySet());
+
+    for (String ele : country.keySet()) {
+      System.out.println(ele);  
+    }
+    for (Entry<String, String> entry : country.entrySet()) {
+        System.out.print(entry);
+        System.out.print(", ");
+      }
+   
 
    } 
 }
